@@ -1,0 +1,7 @@
+#Thu Nov 23 22:26:01 EST 2017
+base.0=/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_21d7fbbd8c351010c7395c1cda318a58e7244324
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_af6f8147a6891e5c28a1c2746f408b719fdd21e3/classes.dex
+base.1=/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_af6f8147a6891e5c28a1c2746f408b719fdd21e3
+file.0=/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_21d7fbbd8c351010c7395c1cda318a58e7244324/classes.dex

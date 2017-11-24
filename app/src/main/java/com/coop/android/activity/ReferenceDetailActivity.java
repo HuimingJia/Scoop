@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import cn.bmob.v3.datatype.BmobFile;
+import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.UpdateListener;
 
 import com.coop.android.activity.bean.Project;
@@ -147,22 +148,20 @@ public class ReferenceDetailActivity extends FragmentActivity implements View.On
 		mEditBtn.setBackgroundResource(R.drawable.project_display_button_edit);
 		mReference.setDescription(mReferenceDescription.getText().toString());		
 		mReference.setFileName(mReferenceTitle.getText().toString());
-		mReference.update(ReferenceDetailActivity.this,this.mReference.getObjectId(), new UpdateListener() {					
-		    @Override
-		    public void onSuccess() {
-		    	CustomToast.showCustomToast("修改保存成功",ReferenceDetailActivity.this);
-		    	
-		    }
-		    
-		    @Override
-		    public void onFailure(int code, String msg) {
-		    	CustomToast.showCustomToast("修改保存失败，请检查网络",ReferenceDetailActivity.this);
-		    }
+		mReference.update(this.mReference.getObjectId(), new UpdateListener() {
+			@Override
+			public void done(BmobException e) {
+				if (e == null) {
+					CustomToast.showCustomToast("修改保存成功",ReferenceDetailActivity.this);
+				} else {
+					CustomToast.showCustomToast("修改保存失败，请检查网络",ReferenceDetailActivity.this);
+				}
+			}
 		});
 		EditBtnStatue=0;	
 		mEditDialog.cancel();
-		 mReferenceTitle.setText(mReference.getFileName());;
-		 mReferenceDescription.setText(mReference.getDescription());;
+		mReferenceTitle.setText(mReference.getFileName());;
+		mReferenceDescription.setText(mReference.getDescription());;
 	}
 	
 	@Override
@@ -184,15 +183,13 @@ public class ReferenceDetailActivity extends FragmentActivity implements View.On
 			}
 	
 		}
-		else if(v==mBackBtn)
-		{
+		else if(v==mBackBtn) {
 			Intent intent_back = new Intent(ReferenceDetailActivity.this,ReferencesActivity.class);
 			intent_back.putExtra("Project", mProject);
 			intent_back.putExtra("Task", mTask);
 			startActivity(intent_back);
 		}
-		else if(v==mDownLoadBtn)
-		{
+		else if(v==mDownLoadBtn) {
 			downloadDir = "/mnt/sdcard/SRcoop/task/" + mTask.getTaskName()+ "/references"; // 目录--下载的文件文件存放于此	
 			FileUtil file=new FileUtil(downloadDir);
 			if (file.isExist())// 如果存在文件夹

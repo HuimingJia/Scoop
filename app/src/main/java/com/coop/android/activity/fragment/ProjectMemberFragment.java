@@ -38,9 +38,7 @@ import cn.bmob.v3.datatype.BmobFile;
 import cn.bmob.v3.datatype.BmobPointer;
 import cn.bmob.v3.datatype.BmobRelation;
 import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.DeleteListener;
 import cn.bmob.v3.listener.FindListener;
-import cn.bmob.v3.listener.GetListener;
 import cn.bmob.v3.listener.QueryListener;
 import cn.bmob.v3.listener.SaveListener;
 import cn.bmob.v3.listener.UpdateListener;
@@ -148,7 +146,8 @@ public class ProjectMemberFragment extends Fragment implements View.OnClickListe
 
 					if(user.getPhoto()!=null) {
 						tportrait.setImageResource(R.drawable.blade);
-//						user.getPhoto().loadImage(getActivity(),tportrait);	}
+//						user.getPhoto().loadImage(getActivity(),tportrait);
+					}
 					temail.setText(user.getEmail()+ "");
 				} else {
 					CustomToast.showCustomToast("Can Not Get Creator Information！",getActivity());
@@ -362,7 +361,7 @@ public class ProjectMemberFragment extends Fragment implements View.OnClickListe
 			
 			if (getItem(position).getPhoto() != null) {
 				convertView.findViewById(R.id.memberlist_image_sportrait);
-				convertView.
+//				convertView.
 //				getItem(position).getPhoto().loadImage(getActivity(),((CircleImageView)convertView.findViewById(R.id.memberlist_image_sportrait)),80,80);
 			}
 				

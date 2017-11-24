@@ -11,13 +11,20 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import cn.bmob.v3.Bmob;
-import cn.bmob.v3.BmobUser;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.SaveListener;
 
+import com.coop.android.activity.bean.User;
 import com.coop.android.activity.toast.CustomToast;
 import com.coop.android.activity.util.NetworkChecker;
+
+import java.util.List;
+
+import cn.bmob.v3.Bmob;
+import cn.bmob.v3.BmobQuery;
+import cn.bmob.v3.BmobUser;
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.FindListener;
+import cn.bmob.v3.listener.LogInListener;
+import cn.bmob.v3.listener.SaveListener;
 
 public class LoginActivity extends Activity implements View.OnClickListener {
 
@@ -138,84 +145,65 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 			 * if query can get the user by username, start to verify the state of "emailverified",only users get their email address verified can login
 			 * if the user's email have been verified, start to verify password,if the password is correct,start to login
 			 */
+			BmobUser.loginByAccount(mAccount, mPassword, new LogInListener<User>() {
 
-//			BmobQuery<BmobUser> query = new BmobQuery<BmobUser>();
-//			query.addWhereEqualTo("username",mAccount);
-//			query.findObjects()
-
-
-			BmobUser user = new BmobUser();
-			user.setUsername(mAccount);
-			user.setPassword(mPassword);
-			user.login(new SaveListener<BmobUser>() {
 				@Override
-				public void done(BmobUser bmobUser, BmobException e) {
-					if (e == null) {
-						CustomToast.showCustomToast("登录成功",LoginActivity.this);
+				public void done(User user, BmobException e) {
+					if ( user != null){
+						CustomToast.showCustomToast("Login Success",LoginActivity.this);
 						Intent intent = new Intent();
 						intent.setClass(LoginActivity.this,ScoopActivity.class);
 						startActivity(intent);
 					} else {
-						CustomToast.showCustomToast(e.toString(), LoginActivity.this);
+						CustomToast.showCustomToast(e.toString(),LoginActivity.this);
 					}
 				}
 			});
 
-
-
-//
-//
-//			query_user.findObjects(this,new FindListener<BmobUser>() {
-//
+//			BmobQuery<BmobUser> query = new BmobQuery<BmobUser>();
+//			query.addWhereEqualTo("username", mAccount);
+//			query.findObjects(new FindListener<BmobUser>() {
 //				@Override
-//			    public void onSuccess(List<BmobUser> objects)
-//				{
-//					if(objects.size()==0)
-//					{
-//						CustomToast.showCustomToast("用户不存在！",LoginActivity.this);
-//					}
-//					else
-//					{
-//						if(	objects != null && objects.size() > 0 && objects.get(0).getEmailVerified() == false)
-//						{
-//							CustomToast.showCustomToast("请先进行邮箱验证Orz",LoginActivity.this);
-//
-//						}
-//						else
-//						{
-//							CustomToast.showCustomToast("正待登录请稍后...",LoginActivity.this);
-//							final BmobUser user = new BmobUser();
-//							user.setUsername(mAccount);
-//							user.setPassword(mPassword);
-//							user.login(LoginActivity.this, new SaveListener() {
-//								@Override
-//								public void onSuccess() {
+//				public void done(List<BmobUser> list, BmobException e) {
+//					if (e == null) {
+//						if (list.size() == 0) {
+//							CustomToast.showCustomToast("用户不存在！",LoginActivity.this);
+//						} else {
+//							if(	list != null && list.size() > 0 && list.get(0).getEmailVerified() == false) {
+//								CustomToast.showCustomToast("请先进行邮箱验证Orz",LoginActivity.this);
+//							} else {
+//								CustomToast.showCustomToast("正待登录请稍后...",LoginActivity.this);
+//								BmobUser user = list.get(0);
+//								user.setPassword(mPassword);
+//								user.login(new SaveListener<Object>() {
+//								})
+//								user.login(new SaveListener<Object>() {
+//								})
+//								user.login(LoginActivity.this, new SaveListener() {
+//									@Override
+//									public void onSuccess() {
 //									/*
 //									 * success to login in, create an intent and start to change activity
 //									 */
-//									CustomToast.showCustomToast("登录成功",LoginActivity.this);
-//									Intent intent = new Intent();
-//									intent.setClass(LoginActivity.this,ScoopActivity.class);
-//									startActivity(intent);
-//								}
+//										CustomToast.showCustomToast("登录成功",LoginActivity.this);
+//										Intent intent = new Intent();
+//										intent.setClass(LoginActivity.this,ScoopActivity.class);
+//										startActivity(intent);
+//									}
 //
-//								@Override
-//								public void onFailure(int code, String msg) {
-//									CustomToast.showCustomToast("登录失败,密码错误",LoginActivity.this);
-//								}
-//							});
+//									@Override
+//									public void onFailure(int code, String msg) {
+//										CustomToast.showCustomToast("登录失败,密码错误",LoginActivity.this);
+//									}
+//								});
+//							}
+//
 //						}
 //
+//					} else {
+//						CustomToast.showCustomToast("未知错误！",LoginActivity.this);
 //					}
-//
-//			    }
-//
-//				@Override
-//				public void onError(int arg0, String arg1)
-//				{
-//					CustomToast.showCustomToast("未知错误！",LoginActivity.this);
 //				}
-//
 //			});
 		}		
 	}

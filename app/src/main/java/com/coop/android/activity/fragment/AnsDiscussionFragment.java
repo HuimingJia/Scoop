@@ -23,7 +23,6 @@ import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.datatype.BmobPointer;
 import cn.bmob.v3.datatype.BmobRelation;
 import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.DeleteListener;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.UpdateListener;
 
@@ -37,8 +36,6 @@ import com.coop.android.activity.dialog.BaseDialog;
 import com.coop.android.activity.dialog.ShortMessageDialog;
 import com.coop.android.activity.dialog.LoadingDialog;
 import com.coop.android.activity.toast.CustomToast;
-import com.coop.android.activity.util.DownUtil;
-import com.coop.android.activity.view.HandyTextView;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
 public class AnsDiscussionFragment extends Fragment implements DialogInterface.OnClickListener,AdapterView.OnItemClickListener, AdapterView.OnItemLongClickListener

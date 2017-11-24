@@ -124,12 +124,12 @@
         "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_cuttingline2_1.png"
     },
     {
-        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_text_teacher_name.png",
-        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_text_teacher_name.png"
-    },
-    {
         "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_type.png",
         "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_type.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_text_teacher_name.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_text_teacher_name.png"
     },
     {
         "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_save_press.9.png",

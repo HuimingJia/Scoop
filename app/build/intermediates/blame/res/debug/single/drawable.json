@@ -220,12 +220,12 @@
         "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_button2.xml"
     },
     {
-        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_tab.xml",
-        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_tab.xml"
-    },
-    {
         "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/resigster_button.xml",
         "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/resigster_button.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_tab.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_tab.xml"
     },
     {
         "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/list_item_background_e.xml",

@@ -47,7 +47,7 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.coop.android.activity.SrcoopActivity"
+            android:name="com.coop.android.activity.ScoopActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="3.5.5"><source path="/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/assets"/></dataSet><dataSet config="main"><source path="/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/assets"/><source path="/Users/jiahuiming/Documents/Project/SCOOP/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/jiahuiming/Documents/Project/SCOOP/app/src/debug/assets"/></dataSet></merger>

@@ -10,6 +10,7 @@ import cn.bmob.push.PushConstants;
 import cn.bmob.v3.BmobInstallation;
 import cn.bmob.v3.BmobPushManager;
 import cn.bmob.v3.BmobQuery;
+import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.SaveListener;
 
@@ -133,7 +134,7 @@ public class PushMessageReceiver extends BroadcastReceiver implements OnClickLis
 			e.printStackTrace();
 		}  
 	    
-		BmobPushManager push=new BmobPushManager(mContext);	
+		BmobPushManager push=new BmobPushManager();
 		BmobQuery<BmobInstallation> query = BmobInstallation.getQuery();
 		query.addWhereEqualTo("mEmail",RequesterEmail);
 		push.setQuery(query);
@@ -147,55 +148,39 @@ public class PushMessageReceiver extends BroadcastReceiver implements OnClickLis
 			
 		BmobQuery<User> query_member = new BmobQuery<User>();
 		query_member.addWhereEqualTo("username", ReceiverEmail);
-		query_member.findObjects(mContext, new FindListener<User>() {
 
+		query_member.findObjects(new FindListener<User>() {
 			@Override
-			public void onSuccess(List<User> objects){			
-				if(objects.size()>0)
-				{   mUser = objects.get(0);
-					BmobQuery<Project> query_p = new BmobQuery<Project>();
-					query_p.addWhereEqualTo("mProjectID", ProjectID);
-					query_p.findObjects(mContext, new FindListener<Project>() {
-
-						@Override
-						public void onSuccess(List<Project> objects){
-							if(objects.size()>0)
-							{   mProject = objects.get(0);
-							
-								User_Project mMember_Project= new User_Project();	
-								mMember_Project.setProject(mProject);
-								mMember_Project.setMember(mUser);
-								mMember_Project.setEmail(mUser.getEmail());
-								mMember_Project.setProjectID(mProject.getObjectId());						
-								mMember_Project.save(mContext, new SaveListener() {
-							
-									@Override
-									public void onSuccess() {
+			public void done(List<User> list, BmobException e) {
+				if (e == null) {
+					if (list != null && list.size()>0) {
+						mUser = list.get(0);
+						BmobQuery<Project> query_p = new BmobQuery<Project>();
+						query_p.addWhereEqualTo("mProjectID", ProjectID);
+						query_p.findObjects(new FindListener<Project>() {
+							@Override
+							public void done(List<Project> list, BmobException e) {
+								if (e == null) {
+									if (list != null && list.size()>0) {
+										mProject = list.get(0);
+										User_Project mMember_Project= new User_Project();
+										mMember_Project.setProject(mProject);
+										mMember_Project.setMember(mUser);
+										mMember_Project.setEmail(mUser.getEmail());
+										mMember_Project.setProjectID(mProject.getObjectId());
+										mMember_Project.save(new SaveListener<String>() {
+											@Override
+											public void done(String s, BmobException e) {
+											}
+										});
 									}
-									
-									@Override
-									public void onFailure(int arg0, String arg1) {
-									}
-								});						
+								}
 							}
-						}
-
-						@Override
-						public void onError(int arg0, String arg1) {
-							// TODO Auto-generated method stub			
-						}
-					});
+						});
+					}
 				}
-				else
-				{
-				}
-			}
-			@Override
-			public void onError(int arg0, String arg1) {
-				// TODO Auto-generated method stub			
 			}
 		});
-	
 	}
 	
 

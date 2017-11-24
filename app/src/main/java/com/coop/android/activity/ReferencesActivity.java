@@ -24,9 +24,8 @@ import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.datatype.BmobFile;
 import cn.bmob.v3.datatype.BmobPointer;
 import cn.bmob.v3.datatype.BmobRelation;
-import cn.bmob.v3.listener.DeleteListener;
+import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
-import cn.bmob.v3.listener.GetListener;
 import cn.bmob.v3.listener.SaveListener;
 import cn.bmob.v3.listener.UpdateListener;
 import cn.bmob.v3.listener.UploadFileListener;
@@ -126,26 +125,19 @@ public class ReferencesActivity extends FragmentActivity implements AdapterView.
 		mBackBtn.setOnClickListener(this);
 	}
 
-	private void queryReferences()
-	{
+	private void queryReferences() {
 		BmobQuery<Reference> query = new BmobQuery<Reference>();
 		query.addWhereRelatedTo("mReferences", new BmobPointer(mTask));
-		query.findObjects(ReferencesActivity.this,new FindListener<Reference>() 
-		{
-
+		query.findObjects(new FindListener<Reference>() {
 			@Override
-			public void onSuccess(List<Reference> ref)
-			{
-				for (Reference r : ref)
-					mReferenceList.addFirst(r);
-				listAdapter.notifyDataSetChanged();
+			public void done(List<Reference> list, BmobException e) {
+				if (e == null) {
+					for (Reference r : list)
+						mReferenceList.addFirst(r);
+					listAdapter.notifyDataSetChanged();
+				}
 			}
-
-			@Override
-			public void onError(int arg0, String arg1) {
-
-			}
-		});		
+		});
 	}
 	
 	@Override
@@ -209,55 +201,33 @@ public class ReferencesActivity extends FragmentActivity implements AdapterView.
 				{
 					bmobFile = new BmobFile(file);
 					fileUtil = new FileUtil(filePath);
-					bmobFile.uploadblock(ReferencesActivity.this,new UploadFileListener() 
-					{
+					bmobFile.uploadblock(new UploadFileListener() {
 						@Override
-						public void onSuccess() {
-				
-							mReference = new Reference();
-							mReference.setName(BmobUser.getCurrentUser(ReferencesActivity.this, User.class).getName());
-							mReference.setgetEmail("123");
-							mReference.setgetEmail(BmobUser.getCurrentUser(ReferencesActivity.this, User.class).getEmail());
-							mReference.setSize(fileUtil.getFileSize());
-							mReference.setType(fileUtil.getFileType());
-							mReference.setFileUrl( bmobFile.getFileUrl(ReferencesActivity.this));
-							mReference.setFileName(bmobFile.getFilename());
-							mReference.save(ReferencesActivity.this,new SaveListener()
-							{
-								@Override
-								public void onSuccess(){
-									addRefToTask();
-								}
-	
-								@Override
-								public void onFailure(int arg0,String msg) 
-								{
-									CustomToast.showCustomToast("添加参考资料失败:"+ msg,ReferencesActivity.this);
-								}
-							});
+						public void done(BmobException e) {
+							if (e == null) {
+								mReference = new Reference();
+								mReference.setName(BmobUser.getCurrentUser(User.class).getName());
+								mReference.setgetEmail("123");
+								mReference.setgetEmail(BmobUser.getCurrentUser(User.class).getEmail());
+								mReference.setSize(fileUtil.getFileSize());
+								mReference.setType(fileUtil.getFileType());
+								mReference.setFileUrl( bmobFile.getFileUrl());
+								mReference.setFileName(bmobFile.getFilename());
+								mReference.save(new SaveListener<String>() {
+									@Override
+									public void done(String s, BmobException e) {
+										if (e != null) {
+											CustomToast.showCustomToast("添加参考资料失败:" + e.toString(), ReferencesActivity.this);
+										}
+									}
+								});
+							} else {
+								CustomToast.showCustomToast("上传文件失败:" + e.toString(), ReferencesActivity.this);
+							}
 						}
-	
-						@Override
-						public void onProgress(Integer value) 
-						{	}
-	
-						@Override
-						public void onFailure(int arg0, String msg) {
-							  if(arg0==146)
-							  {
-								  CustomToast.showCustomToast("请上传有后缀的文件",ReferencesActivity.this);
-							  }
-							  else
-							  {
-								  CustomToast.showCustomToast("上传文件失败:" + msg,ReferencesActivity.this);
-								  }
-						 }
-					
 					});
-				}
-				else
-				{
-					  CustomToast.showCustomToast("该文件不可以被上载",ReferencesActivity.this);
+				} else {
+					CustomToast.showCustomToast("该文件不可以被上载",ReferencesActivity.this);
 				}
 				Thread.sleep(1100);
 			} catch (InterruptedException e) 
@@ -280,20 +250,18 @@ public class ReferencesActivity extends FragmentActivity implements AdapterView.
 		BmobRelation mRefs = new BmobRelation();
 		mRefs.add(mReference);
 		mTask.setReferences(mRefs);
-		mTask.update(ReferencesActivity.this, new UpdateListener() 
-		{
+		mTask.update(new UpdateListener() {
 			@Override
-			public void onSuccess()
-			{
-				mReferenceList.addFirst(mReference);
-				listAdapter.notifyDataSetChanged();
-				CustomToast.showCustomToast("添加参考资料成功",ReferencesActivity.this);
-				filePath = null;
+			public void done(BmobException e) {
+				if (e == null) {
+					mReferenceList.addFirst(mReference);
+					listAdapter.notifyDataSetChanged();
+					CustomToast.showCustomToast("添加参考资料成功",ReferencesActivity.this);
+					filePath = null;
+				} else {
+					CustomToast.showCustomToast("添加参考资料失败:" + e.toString(), ReferencesActivity.this);
+				}
 			}
-
-			@Override
-			public void onFailure(int arg0, String msg) 
-			{CustomToast.showCustomToast("添加参考资料失败:" + msg,ReferencesActivity.this);}
 		});
 	}
 
@@ -365,9 +333,9 @@ public class ReferencesActivity extends FragmentActivity implements AdapterView.
 	}
 	
 	private void deleteReference(int position){
-		operation_position=position-1;
+		operation_position = position - 1;
 		mReference = mReferenceList.get(operation_position);
-		if(BmobUser.getCurrentUser(ReferencesActivity.this,User.class).getEmail().equals(mReference.getEmail()))
+		if(BmobUser.getCurrentUser(User.class).getEmail().equals(mReference.getEmail()))
 		{
 			mDelDialog.show();
 		}else
@@ -405,34 +373,18 @@ public class ReferencesActivity extends FragmentActivity implements AdapterView.
 				BmobRelation taskReference  = new BmobRelation();
 				taskReference.remove(mReference);
 				mTask.setReferences(taskReference);
-				mTask.update(ReferencesActivity.this,new UpdateListener() {					
+				mTask.update(new UpdateListener() {
 					@Override
-					public void onSuccess() {
-						// TODO Auto-generated method stub
-						mReference.delete(ReferencesActivity.this,new DeleteListener() 
-						{							
-							@Override
-							public void onSuccess() {
-								// TODO Auto-generated method stub
-								CustomToast.showCustomToast("删除参考资料成功",ReferencesActivity.this);
-								mReferenceList.remove(operation_position);
-								listAdapter.notifyDataSetChanged();
-							}
-							
-							@Override
-							public void onFailure(int arg0, String arg1)
-							{
-								// TODO Auto-generated method stub		
-								CustomToast.showCustomToast("删除参考资料失败",ReferencesActivity.this);
-							}
-						});
-					}					
-					@Override
-					public void onFailure(int arg0, String arg1) {
-						// TODO Auto-generated method stub
-						CustomToast.showCustomToast("删除参考资料失败",ReferencesActivity.this);
+					public void done(BmobException e) {
+						if (e == null) {
+							CustomToast.showCustomToast("删除参考资料成功",ReferencesActivity.this);
+							mReferenceList.remove(operation_position);
+							listAdapter.notifyDataSetChanged();
+						} else {
+							CustomToast.showCustomToast("删除参考资料失败",ReferencesActivity.this);
+						}
 					}
-				});			
+				});
 			}
 		}
 		

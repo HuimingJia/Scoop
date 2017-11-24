@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+   <!--  <EditText
+        android:id="@+id/dialog_edittext_enter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_default"
+        android:hint="输入课题名"
+        android:imeOptions="actionNext"
+        android:singleLine="true" /> -->
+
+    <TextView
+        android:id="@+id/dialog_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_normal_normal"
+        android:textColor="#2a94c5"
+        android:textSize="15dp"
+        android:text="路径xxxx" />
+
+</LinearLayout>

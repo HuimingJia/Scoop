@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/Tab_task"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" 
+           android:paddingBottom="5dp">
+
+        <ImageButton
+            android:id="@+id/Button_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/scan_book"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/text_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="任务"
+            android:textColor="#CFA655"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Tab_file"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" 
+        android:paddingBottom="5dp">
+
+        <ImageButton
+            android:id="@+id/Button_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/scan_street"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/text_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="文件"
+            android:textColor="#CFA655"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Tab_member"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" 
+           android:paddingBottom="5dp">
+
+        <ImageButton
+            android:id="@+id/Button_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/scan_word"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/text_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="成员"
+            android:textColor="#CFA655"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

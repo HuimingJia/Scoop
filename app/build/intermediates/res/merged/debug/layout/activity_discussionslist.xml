@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="#2e3f4e">
+
+            <Button
+                android:id="@+id/discussionslist_button_back"
+                android:background="@drawable/button_back"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                              android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/discussion"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_vertical|center_horizontal"
+                              android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text="相关讨论列表"
+             />
+
+
+            <Button
+                android:id="@+id/discussionslist_image_addiscussion"
+                     android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+                android:background="@drawable/button_add"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+                 android:background="@drawable/background_fragment">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:background="@drawable/problemslist_image_cuttingline2_0"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="5dp"
+                    android:layout_width="fill_parent"
+                    />
+                
+           		 <include layout="@layout/tab_discussion"/>
+                      
+	            <ImageView
+	                android:background="@drawable/problemslist_image_cuttingline2_0"
+	                android:layout_height="5dp"
+	                android:layout_width="fill_parent"/>
+	            
+	            <android.support.v4.view.ViewPager
+		            android:id="@+id/id_viewpager"
+		            android:layout_width="fill_parent"
+		            android:layout_height="0dp"
+		            android:layout_weight="1">    
+	            </android.support.v4.view.ViewPager>
+            
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>

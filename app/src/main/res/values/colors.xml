@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="holo_blue">#ff33E5B5</color>
+    <color name="divider">#ffcedbe0</color>
+    <color name="profile_label">#a9aaaa</color>
+    <color name="profile_edit">#383838</color>
+    <color name="blue">#ff0f81d9</color>
+    <color name="press_blue">#2e3f4e</color>
+    <color name="text_color">#ff434343</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#ff000000</color>
+    <color name="dialog_divider">#ffbfcbd3</color>
+    <color name="font_value">#ff888271</color>
+    <color name="light_notes_color">#ff999999</color>
+    <color name="link_color">#ff4abad7</color>
+    <color name="dialog_listitem_press">#ffd0dce4</color>
+    <color name="currentstage_label_color">#547f91</color>
+    <color name="assignment_textview_color">#547f91</color>
+    <color name="assignment_divider_color">#a0c9dc</color>
+    <color name="assignment_checked_color">#0b95d3</color>
+    <color name="assignment_unchecked_color">#a9aaaa</color>
+    <color name="stage_change_color">#1f5a75</color>
+    <color name="task_tv_color">#1f5a75</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="button_text_color">#825a12</color>
+    <color name="button_text_color_3">#CFA655</color>
+</resources>

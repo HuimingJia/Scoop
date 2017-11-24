@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Coop</string>
+
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+
+    <string name="settintg_check_update">检查更新</string>
+    <string name="settintg_give_back">用户反馈</string>
+    <string name="settintg_share_to_freind">分享给朋友</string>
+    <string name="settintg_about">关于</string>
+    <string name="exit">退出当前账号</string>
+    <string name="dialog_p_btn">相册</string>
+    <string name="dialog_title">设置头像</string>
+    <string name="task_name1">模式识别算法</string>
+    <string name="task_carriers">执行者:</string>
+    <string name="task_content">任务概要:</string>
+    
+    <string name="task_current_assignment">实验阶段小任务:</string>
+    <string name="task_carrier1_name">库珀</string>
+    <string name="task_carrier2_name">艾米莉亚</string>
+    <string name="task_carrier3_name">墨菲</string>
+    <string name="task_content_detail">通过虫洞可以打破人类的能力限制，到更遥远外太空寻找延续生命希望的机会</string>
+    <string name="stage1_name">准备阶段</string>
+    <string name="stage2_name">实验阶段</string>
+    <string name="stage3_name">改进阶段</string>
+    <string name="stage4_name">发表阶段</string>
+    <string name="task_reference">参考资料</string>
+    <string name="task_problem">问题列表</string>
+    
+
+
+    <string name="next">下一个阶段</string>
+    <string name="prev">上一个阶段</string>
+    
+    <string name="task_carrier">参与者:</string>
+	<string name="task_assignment">任务作业:</string>
+	
+	<string name="assignment_textview_starttime">分配时间:</string>
+    <string name="assignment_textview_finishtime">完成时间:</string>
+    <string name="assignment_textview_desc">描述:</string>
+    <string name="assignment_finish">完成此阶段任务</string>
+    <string name="assignment_notfinish">未完成</string>
+</resources>

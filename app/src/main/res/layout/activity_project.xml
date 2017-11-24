@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="@drawable/background"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#2e3f4e"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#2e3f4e" >
+
+                <Button
+                    android:id="@+id/title_bar_left_back"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_back" />
+
+                <TextView
+                    android:id="@+id/project_activity_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="7dp"
+                     android:maxLength="20"
+                    android:textColor="#FFF"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/btn_add_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_add" />
+                <Button
+                    android:id="@+id/btn_add_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_add" />
+                <Button
+                    android:id="@+id/btn_add_member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_add" />
+            </FrameLayout>
+        </LinearLayout>
+        <include layout="@layout/tab_project"/>
+        
+       <android.support.v4.view.ViewPager
+            android:id="@+id/id_viewpager"
+            android:layout_width="fill_parent"
+            android:background="@drawable/background_fragment"
+            android:layout_height="0dp"
+            android:layout_weight="1">    
+        </android.support.v4.view.ViewPager>
+ </LinearLayout>

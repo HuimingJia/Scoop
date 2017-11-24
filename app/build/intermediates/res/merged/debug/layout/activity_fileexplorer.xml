@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_top3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2e3f4e" >
+
+            <Button
+                android:id="@+id/file_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="#2e3f4e" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:gravity="center_horizontal"
+                 android:text=" 文件系统" 
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            
+          <Button
+                android:id="@+id/file_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_back" />
+        </FrameLayout>
+    </LinearLayout>
+      <TextView
+           android:id="@+id/path"
+           android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:padding="8dp"
+             android:gravity="center_horizontal"
+              android:text="路径：" 
+             android:textColor="#ffffff"
+             android:textSize="24sp" />
+    
+    <ListView
+        android:id="@+id/list"
+             android:background="@drawable/background_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/file_path"
+        android:dividerHeight="1dp" >
+
+    </ListView>
+</LinearLayout>

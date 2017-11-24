@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"        
+  android:layout_width="fill_parent"
+  android:layout_height="50dp">
+            
+   <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/discussionslist_button_unansweredlistbutton"
+        android:layout_width="fill_parent"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textColor="#2e3f4e"
+        android:text="未回答讨论"
+        android:layout_height="fill_parent"/>
+
+    <TextView
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/discussionslist_button_answeredlistbutton"              
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#2e3f4e"
+        android:text="已回答讨论"
+        android:layout_height="fill_parent"/>
+    </LinearLayout>
+</RelativeLayout>   

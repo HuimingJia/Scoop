@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="#2e3f4e">
+
+            <Button
+                android:id="@+id/discussiondetail_button_back"
+                android:background="@drawable/button_back"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                          android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/discussion"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_vertical|center_horizontal"
+                               android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text=""
+              />
+
+            <Button
+                android:id="@+id/discussiondetail_image_editdiscussion"
+                     android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="10dp"
+                android:background="@drawable/button_add"/>
+        </RelativeLayout>
+
+         <RelativeLayout
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:orientation="horizontal"
+		       android:paddingBottom="10dp"
+		       android:paddingTop="15dp" >
+
+        <com.coop.android.activity.view.CircleImageView
+            android:id="@+id/comment_imageview_profile"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_profile_photo" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/comment_imageview_profile"
+            android:orientation="vertical" >
+     
+             <TextView
+                android:id="@+id/comment_textview_owername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="from"
+                android:padding="2dp" />
+              <TextView
+                android:id="@+id/comment_textview_theme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2e3f4e"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:singleLine="true"
+                android:background="@drawable/background_corner" />           
+            <TextView
+                android:id="@+id/comment_textview_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2e3f4e"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:text="content"
+                android:padding="5dp"
+                android:background="@drawable/background_corner" />
+        </LinearLayout>
+   		 </RelativeLayout>
+        
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+                 android:background="@drawable/background_fragment">
+		    <com.handmark.pulltorefresh.library.PullToRefreshListView
+		        android:id="@+id/contents_listview"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:cacheColorHint="#00000000"
+		        android:divider="@color/dialog_divider"
+		        android:dividerHeight="1.0dip"
+		        android:fadingEdge="none"
+		        android:listSelector="@drawable/list_selector_transition"
+		        android:scrollingCache="false" />
+        </RelativeLayout>
+    </LinearLayout>

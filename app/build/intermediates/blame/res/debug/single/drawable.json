@@ -1,0 +1,258 @@
+[
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/list_selector_transition.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/list_selector_transition.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/menu_button.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/menu_button.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_circlebutton.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_circlebutton.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/button_selector.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/button_selector.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_label.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_label.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_button.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_button.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_tab_issue.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_tab_issue.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/indicator_bg_top.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/indicator_bg_top.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_check_selector.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable/bmob_update_button_check_selector.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/selectable_item_background.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/selectable_item_background.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_button3_unpressed.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_button3_unpressed.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_assboard_finished.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_assboard_finished.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_button2_pressed.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_button2_pressed.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/progress_indeterminate_horizontal_holo.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/progress_indeterminate_horizontal_holo.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_close_bg_selector.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable/bmob_update_button_close_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bmob_update_wifi_disable.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable/bmob_update_wifi_disable.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_button3_pressed.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_button3_pressed.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_fragment.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_fragment.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/button_add.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/button_add.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/edittext_default.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/edittext_default.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bmob_update_dialog_bg.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable/bmob_update_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_assboard.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_assboard.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/activity_achievement_file_download_progress_bar.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/activity_achievement_file_download_progress_bar.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bg_dialog_simplelist.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/bg_dialog_simplelist.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_corner3.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_corner3.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_corner_edit.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_corner_edit.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/button_confirm.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/button_confirm.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/indicator_bg_bottom.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/save_button.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/save_button.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/progress_horizontal_holo_light_right.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/progress_horizontal_holo_light_right.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_circlebutton_clicked.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_circlebutton_clicked.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/button_circle_shape_blue.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/button_circle_shape_blue.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/button_back.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/button_back.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_ok_bg_focused.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable/bmob_update_button_ok_bg_focused.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/btn_default_popsubmit.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/btn_default_popsubmit.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_button2_unpressed.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_button2_unpressed.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/progress_horizontal_holo_light.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/progress_horizontal_holo_light.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_cancel_bg_focused.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable/bmob_update_button_cancel_bg_focused.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/button_edit.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/button_edit.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/list_item_background_o.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/list_item_background_o.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/btn_profile_save.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/btn_profile_save.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_ok_bg_selector.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable/bmob_update_button_ok_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/btn_default.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/btn_default.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_button3.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_button3.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_cancel_bg_tap.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable/bmob_update_button_cancel_bg_tap.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_board2.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_board2.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_cancel_bg_selector.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable/bmob_update_button_cancel_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_corner2.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_corner2.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_cancel_bg_normal.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable/bmob_update_button_cancel_bg_normal.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bg_dialog_listitem_selector.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/bg_dialog_listitem_selector.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_ok_bg_tap.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable/bmob_update_button_ok_bg_tap.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_corner2_t.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_corner2_t.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_profile.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_profile.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_button_unpressed.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_button_unpressed.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_button2.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_button2.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_tab.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_tab.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/resigster_button.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/resigster_button.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/list_item_background_e.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/list_item_background_e.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_board3.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_board3.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_ok_bg_normal.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable/bmob_update_button_ok_bg_normal.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_button_pressed.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_button_pressed.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_corner.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_corner.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/background_board.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/background_board.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable/button_circle_shape_orange.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable/button_circle_shape_orange.xml"
+    }
+]

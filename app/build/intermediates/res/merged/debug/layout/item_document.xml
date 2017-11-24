@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+     android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:background="@drawable/icon_file"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="66dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/background_corner2"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="24dp">
+            <TextView
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#2e3f4e"
+                android:text="文件名:"
+                android:layout_gravity="right" />
+            <TextView
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#2e3f4e"
+                android:text=""
+                android:id="@+id/document_textview_title"
+                android:layout_gravity="right" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="3dp">
+
+            <Button
+                android:background="@drawable/background_button"
+                android:layout_width="76dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentRight="true"
+                android:id="@+id/document_button_download"             
+                android:text="下载"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#825a12"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="96dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp">
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:background="@drawable/background_corner2_t"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="0dp"
+                        android:layout_height="15dp"
+                        android:layout_weight="1.5">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="24dp"
+                            android:textSize="11dp"
+                            android:textStyle="bold"
+                            android:textColor="#2e3f4e"
+                            android:text="来源:" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="24dp"
+                            android:id="@+id/document_textview_from"
+                            android:textSize="11dp"
+                            android:textStyle="bold"
+                            android:textColor="#2e3f4e"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:background="@drawable/background_corner2_t"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="0dp"
+                        android:layout_height="15dp"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="24dp"
+                            android:textSize="11dp"
+                            android:textStyle="bold"
+                            android:textColor="#2e3f4e"
+                            android:text="类型:" />
+                        <TextView
+                            android:id="@+id/document_textview_type"   
+                            android:layout_width="wrap_content"
+                            android:layout_height="24dp"
+                            android:textSize="11dp"
+                            android:textStyle="bold"
+                            android:textColor="#2e3f4e"
+                            android:text="PDF" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:background="@drawable/background_corner2_t"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="0dp"
+                        android:layout_height="15dp"
+                        android:layout_weight="1.5">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="24dp"
+                            android:textSize="11dp"
+                            android:textStyle="bold"
+                            android:textColor="#2e3f4e"
+                            android:text="时间:" />
+                        <TextView
+                            android:id="@+id/document_textview_time" 
+                            android:layout_width="wrap_content"
+                            android:layout_height="24dp"
+                            android:textSize="11dp"
+                            android:textStyle="bold"
+                            android:textColor="#2e3f4e"
+                            android:text="2014.01.01" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:background="@drawable/background_corner2_t"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="0dp"
+                        android:layout_height="15dp"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="24dp"
+                            android:textSize="11dp"
+                            android:textStyle="bold"
+                            android:textColor="#2e3f4e"
+                            android:text="大小:" />
+                        <TextView
+                             android:id="@+id/document_textview_size" 
+                            android:layout_width="wrap_content"
+                            android:layout_height="24dp"
+                            android:textSize="11dp"
+                            android:textStyle="bold"
+                            android:textColor="#2e3f4e"
+                            android:text="10MB" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

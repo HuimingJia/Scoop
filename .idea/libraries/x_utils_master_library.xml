@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="x-utils-master-library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/x-utils-master-library.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

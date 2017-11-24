@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_top3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/press_blue" >
+
+            <Button
+                android:id="@+id/project_display_back_w"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_back" />
+
+            <TextView
+                android:id="@+id/activity_title_w"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="项目信息"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/project_display_edit_w"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_edit" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/project_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_fragment"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_corner"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/project_label_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="名称："
+                android:textColor="@color/press_blue"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/project_title"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left|center_vertical"
+                android:background="@null"
+                android:enabled="false"
+                 android:maxLength="20"
+                android:textColor="@color/press_blue"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_corner"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/project_label_depict"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:text="描述："
+                android:textColor="@color/press_blue"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/project_depict"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:background="@null"
+                android:enabled="false"
+                android:gravity="top"
+                android:minHeight="100dp"
+                android:text=""
+                android:textColor="@color/press_blue"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_corner"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/project_label_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:text="时间："
+                android:textColor="@color/press_blue"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/project_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:background="@null"
+                android:enabled="false"
+                android:gravity="top"
+                android:textColor="@color/press_blue"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/background_button"
+            android:text="退出项目"
+            android:textColor="@color/button_text_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

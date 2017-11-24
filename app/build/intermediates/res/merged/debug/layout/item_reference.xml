@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/reference_item_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+     android:descendantFocusability="blocksDescendants">
+
+
+    <ImageView
+        android:background="@drawable/icon_file"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="66dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/background_corner2"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#2e3f4e"
+                android:text="文件名:"
+                android:layout_gravity="right" />
+            <TextView
+                android:id="@+id/fileName"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                  android:padding="5dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#2e3f4e"
+                android:text="文件xxx"
+                android:layout_gravity="right" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="3dp">
+
+            <Button
+                android:id="@+id/references_download"
+                android:background="@drawable/background_button"
+                android:layout_width="76dp"
+                android:layout_height="26dp"
+                
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentRight="true"
+                android:text="查看"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#825a12"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="96dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">        
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/background_corner2"
+                        android:gravity="left|center"
+                             android:padding="1dp"
+                             android:paddingLeft="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:textStyle="bold"
+                       
+                            android:textColor="#2e3f4e"
+                            android:text="时间:" />
+                        <TextView
+                            android:id="@+id/uploadTime"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:textStyle="bold"
+                            android:textColor="#2e3f4e"
+                            android:text="2014-12-28 19:05:11" />
+                    </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

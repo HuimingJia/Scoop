@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <Project id="InflateParams" severity="ignore">
+        <ignore path="src/com/srcoop/android/activity/fragment/HomeFragment.java" />
+        <ignore path="src/com/srcoop/android/activity/fragment/NoticeFragment.java" />
+    </Project>
+</lint>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+  
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#2e3f4e" >
+
+            <Button
+                android:id="@+id/referencedetial_button_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/referencedetial_textview_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="成果"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/referencedetial_button_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp" />
+        </FrameLayout>
+
+      <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" 
+		         android:background="@drawable/background_fragment">      
+      
+        <FrameLayout
+            android:layout_width="fill_parent"
+              android:layout_height="30dp" 
+              android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/referencedetial_textview_name"
+                android:layout_width="wrap_content"
+               android:layout_height="30dp"
+               android:layout_gravity="left|center_vertical"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="文件名"
+                android:textColor="#ffffff"/>
+
+
+            <EditText
+                android:id="@+id/referencedetial_editview_name"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:enabled="false"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </FrameLayout>
+        
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="90dp" 
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/referencedetial_textview_description"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="left|top"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="描述"
+                android:textColor="#ffffff" />
+
+
+            <EditText           
+                android:id="@+id/referencedetial_editview_description"
+                android:layout_width="220dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:enabled="false"
+                android:gravity="top"
+                android:padding="3dp"
+                android:scrollbars="vertical"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+        </FrameLayout>
+        
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp" 
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/referencedetial_textview_ownerlabel"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="left|top"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="上传者"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/referencedetial_textview_owner"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="90dp"
+                android:enabled="false"
+                android:padding="3dp"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </FrameLayout>
+        
+          <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp" 
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/referencedetial_textview_timelabel"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="left|top"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="上传时间"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/referencedetial_textview_time"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="90dp"
+                android:enabled="false"
+                android:padding="3dp"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </FrameLayout>
+       
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dp" >
+
+            <Button
+                android:id="@+id/referencedetial_button_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:text="文件下载"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:enabled="false" />
+        </FrameLayout>
+        
+        <com.coop.android.activity.view.MyProgressBar
+				android:id="@+id/achi_bar"
+			 	android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:max="100"
+				android:visibility="invisible"
+				style="?android:attr/progressBarStyleHorizontal"/>
+       
+      </LinearLayout>
+</LinearLayout>

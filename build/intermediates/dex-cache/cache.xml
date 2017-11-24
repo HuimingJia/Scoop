@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/jiahuiming/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_cf0a550fdc71008e9dd3fd188ebbfc96c0a8d025/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f62c1f36b45548c1a0f5fea10d3c7d29a85c486b">
+        <dex dex="/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_21d7fbbd8c351010c7395c1cda318a58e7244324/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jiahuiming/Documents/Project/SCOOP/app/libs/nineoldandroids-library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/transforms/dex/debug/folders/1000/2/nineoldandroids-library-2.4.0_a5755ad50bd3e8bfd3471819d02a63ed43738f5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jiahuiming/Documents/Project/SCOOP/app/libs/BmobSDK_V3.3.5_0408.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e40484e10e7fc470815a97be1d397af0d1e0c34d">
+        <dex dex="/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/transforms/dex/debug/folders/1000/2/BmobSDK_V3.3.5_0408_cee0ec633f3363f395b37c8d490443f0653e9ee7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jiahuiming/Documents/Project/SCOOP/app/libs/Bmob_Push_V0.6beta_20150408.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="db21ec99c2c7bf91c67bf80f5c5c49a92dd0562e">
+        <dex dex="/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/transforms/dex/debug/folders/1000/2/Bmob_Push_V0.6beta_20150408_6a001c2c74bba0adaa01a36fd13d13c530f0f962/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="93ad03d62537d3861f4b219f3e01e79e2042aafe">
+        <dex dex="/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_af6f8147a6891e5c28a1c2746f408b719fdd21e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jiahuiming/Documents/Project/SCOOP/app/libs/x-utils-master-library.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="dfd2f393992d02d2f66b9fa60f7f5eaaa7ba7a64">
+        <dex dex="/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/transforms/dex/debug/folders/1000/2/x-utils-master-library_c1d8ab8fe48dd26b824629767c1f29c270dcac09/classes.dex" />
+    </item>
+
+</items>

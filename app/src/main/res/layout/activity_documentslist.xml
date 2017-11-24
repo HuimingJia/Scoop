@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.srcoop_jhm.app.ProblemDisplay">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#2e3f4e">
+
+        <Button
+            android:id="@+id/filelist_image_back"
+            android:background="@drawable/button_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+                      android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/my_file_title"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="文档"
+            android:textColor="#ffffff"
+                           android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/filelist_image_addfiles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_add"/>
+    </RelativeLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/filelist_listview_files"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_fragment"
+        android:divider="@color/press_blue"
+        android:dividerHeight="1.0dip"
+        android:fadingEdge="none"
+        android:listSelector="@drawable/list_selector_transition"
+        android:scrollingCache="false" />
+
+</LinearLayout>

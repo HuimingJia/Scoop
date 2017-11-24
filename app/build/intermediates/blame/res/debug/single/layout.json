@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/include_dialogconfirmtextview.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/include_dialogconfirmtextview.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/fragment_ansdiscussion.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/fragment_ansdiscussion.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_referenceslist.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_referenceslist.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_directory.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_directory.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_fileexplorer.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_fileexplorer.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/include_dialognotification.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/include_dialognotification.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_srcoop.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_srcoop.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_project.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_project.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_document.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_document.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_referencedetial.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_referencedetial.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/include_dialog_double_edittext.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/include_dialog_double_edittext.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/tab_issuetab.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/tab_issuetab.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_project_member_style.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_project_member_style.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/fragment_tasklist.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/fragment_tasklist.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_reference.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_reference.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_notice.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_notice.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_comment_1.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_comment_1.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/menu_reside.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/menu_reside.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/bmob_update_dialog.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/layout/bmob_update_dialog.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/fragment_unansdiscussion.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/fragment_unansdiscussion.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/tab_project.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/tab_project.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/fragment_menuitem_home.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/fragment_menuitem_home.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/dialog_common_generic.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/dialog_common_generic.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_projectdetail.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_projectdetail.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_comment_2.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_comment_2.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/common_flipping_loading_diloag.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/common_flipping_loading_diloag.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_fileexplorer.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_fileexplorer.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/pull_to_refresh_header_google_style.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/pull_to_refresh_header_google_style.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/dialog_list.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/dialog_list.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/fragment_menuitem_setting.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/fragment_menuitem_setting.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_project.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_project.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/pull_to_refresh_progress_google_style.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/pull_to_refresh_progress_google_style.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/include_dialoglongedit.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/include_dialoglongedit.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_listdialog.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_listdialog.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_discussion.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_discussion.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_carrier.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_carrier.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_assignment.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_assignment.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_discussionslist.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_discussionslist.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/fragment_menuitem_profile.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/fragment_menuitem_profile.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/pulling_progress_layout.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/pulling_progress_layout.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/fragment_assignment_layout.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/fragment_assignment_layout.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_taskdetail.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_taskdetail.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/include_dialogshortedit.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/include_dialogshortedit.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/tab_discussion.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/tab_discussion.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_task.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_task.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/fragment_menuitem_notice.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/fragment_menuitem_notice.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_menu.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_menu.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/fragment_memberlist.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/fragment_memberlist.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/item_member.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/item_member.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_discussiondetail.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_discussiondetail.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/activity_documentslist.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/activity_documentslist.xml"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/layout/toast_custom.xml",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/layout/toast_custom.xml"
+    }
+]

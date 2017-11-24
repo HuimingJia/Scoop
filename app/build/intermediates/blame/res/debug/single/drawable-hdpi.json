@@ -1,0 +1,786 @@
+[
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/login_logo.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/login_logo.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_answer.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_answer.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_big_normal_press.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/btn_big_normal_press.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/crop__tile.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/crop__tile.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/menu_right_save_disable_presson.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/menu_right_save_disable_presson.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_cuttingline2_1.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_cuttingline2_1.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_about.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/ic_action_about.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_title.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_title.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_label_name.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_label_name.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/menu_right_add_presson.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/menu_right_add_presson.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsedit_input_answer.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsedit_input_answer.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsdisplay_label_depict.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsdisplay_label_depict.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/scan_book_hl.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/scan_book_hl.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/crop__divider.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/crop__divider.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_cuttingline2_3.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_cuttingline2_3.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_big_popsubmit_press.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/btn_big_popsubmit_press.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/menu_right_add.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/menu_right_add.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/login_button_loginandregister.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/login_button_loginandregister.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_addreferences.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_addreferences.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/login_image_background.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/login_image_background.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/bg_popwindow.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/bg_popwindow.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/progressbar_indeterminate_holo2.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/progressbar_indeterminate_holo2.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/login_input_loginlabel.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/login_input_loginlabel.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/menu_right_ok.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/menu_right_ok.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/register_button_selectedtype.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/register_button_selectedtype.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_ic_action_camera.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/ic_action_ic_action_camera.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_wordlogo.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_wordlogo.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/menu_right_save.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/menu_right_save.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_cuttingline2_1.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_cuttingline2_1.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_text_teacher_name.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_text_teacher_name.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_type.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_type.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_save_press.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/btn_save_press.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/progress_bg_holo_light.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/progress_bg_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/scan_street.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/scan_street.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/memberlist_label_teachername.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/memberlist_label_teachername.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/menu_right_new_presson.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/menu_right_new_presson.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_statuebar.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_statuebar.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_back.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_back.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsdisplay_image_statuebar.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsdisplay_image_statuebar.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_directory.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/icon_directory.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/register_button_finish.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/register_button_finish.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_button_problemdisplay.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_button_problemdisplay.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_o2.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/icon_o2.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/button_back_presson.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/button_back_presson.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/progressbar_indeterminate_holo5.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/progressbar_indeterminate_holo5.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/login_button_loginandregister_presson.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/login_button_loginandregister_presson.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/button_edit_presson.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/button_edit_presson.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problems.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problems.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_button_edit.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_button_edit.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/decipt.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/decipt.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/button_confirm_presson.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/button_confirm_presson.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_big_normal_normal.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/btn_big_normal_normal.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_button_moreubable.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_button_moreubable.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/progress_primary_holo_light.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/progress_primary_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/register_button_back.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/register_button_back.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_input_name.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_input_name.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/crop__ic_cancel.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/crop__ic_cancel.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/time.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/time.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/menu_background.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/menu_background.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_dropmenu_selector.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/ic_dropmenu_selector.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_unansweredproblembackground.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_unansweredproblembackground.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_cuttingline1_0.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_cuttingline1_0.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsdisplay_image_time.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsdisplay_image_time.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/menu.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/menu.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/login_image_logboard.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/login_image_logboard.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/indicator_arrow.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/indicator_arrow.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/title.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/title.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/item_pressed.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/item_pressed.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/bg_common_toast.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/bg_common_toast.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/transpant.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/transpant.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/scan_word.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/scan_word.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/image1.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/image1.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/from.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/from.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_o1.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/icon_o1.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/scan_street_hl.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/scan_street_hl.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/tile.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/tile.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsdisplay_label_answer.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsdisplay_label_answer.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsdisplay_input_answer.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsdisplay_input_answer.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/register_image_statuebar.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/register_image_statuebar.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/achievement_edit_upload.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/achievement_edit_upload.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/memberlist_label_teachnumber.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/memberlist_label_teachnumber.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_label_member.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_label_member.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_save_disable.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/btn_save_disable.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_delete.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/ic_delete.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/scan_qr_hl.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/scan_qr_hl.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsdisplay_label_title.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsdisplay_label_title.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_settings.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/icon_settings.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_edit_button_confirm.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_edit_button_confirm.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_cuttingline2_3.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_cuttingline2_3.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_profile_photo.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/icon_profile_photo.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_unansweredproblembackground2.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_unansweredproblembackground2.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_notice.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/icon_notice.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_button_collapseunable.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_button_collapseunable.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/achievement_edit_keyword.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/achievement_edit_keyword.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/scan_word_hl.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/scan_word_hl.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_edit_input_discription.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_edit_input_discription.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/progressbar_indeterminate_holo4.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/progressbar_indeterminate_holo4.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/default_ptr_flip.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/default_ptr_flip.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_from.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_from.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/answered.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/answered.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_cuttingline2_0.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_cuttingline2_0.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/button_back.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/button_back.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_back.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/ic_action_back.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/profile_photo_select.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/profile_photo_select.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_time.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_time.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/item_focused.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/item_focused.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/shadow.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/shadow.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/button_on.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/button_on.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsdisplay_button_edit.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsdisplay_button_edit.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_back.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_back.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/register_ediittext_biginput.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/register_ediittext_biginput.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsdisplay_image_from.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsdisplay_image_from.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_button_back.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_button_back.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/notice_msg_bg.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/notice_msg_bg.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/menu_presson.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/menu_presson.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/achievement_edit_add.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/achievement_edit_add.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_button_download.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_button_download.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/button_confirm.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/button_confirm.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/progressbar_indeterminate_holo8.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/progressbar_indeterminate_holo8.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_cuttingline2_2.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_cuttingline2_2.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/progressbar_indeterminate_holo3.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/progressbar_indeterminate_holo3.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_size.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_size.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_input_discription.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_input_discription.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_home.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/icon_home.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/menu_right_save_disable.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/menu_right_save_disable.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/notice_time.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/notice_time.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsedit_input_title.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsedit_input_title.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_c.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/icon_c.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_p.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/icon_p.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_unansweredproblembackground_presson.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_unansweredproblembackground_presson.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_addproblems.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_addproblems.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/ass_finish_checked.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/ass_finish_checked.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/register_image_registerboard.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/register_image_registerboard.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/profile_photo.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/profile_photo.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsdisplay_input_depict.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsdisplay_input_depict.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_button_collapse.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_button_collapse.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_label_depict.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_label_depict.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_text_student_number.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_text_student_number.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/default_ptr_rotate.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/default_ptr_rotate.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_edit_input_name.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_edit_input_name.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/edittext_normal_normal.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/edittext_normal_normal.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_refresh.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/ic_action_refresh.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_pdflogo.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_pdflogo.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/memberlist_label_teachernumber.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/memberlist_label_teachernumber.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_share.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/crop__ic_done.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/crop__ic_done.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_referencesbackground.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_referencesbackground.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsdisplay_input_title.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsdisplay_input_title.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/progressbar_indeterminate_holo6.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/progressbar_indeterminate_holo6.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/register_button_finish_presson.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/register_button_finish_presson.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/unanswered.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/unanswered.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_file.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/icon_file.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_big_popsubmit_disable.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/btn_big_popsubmit_disable.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_big_popsubmit_normal.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/btn_big_popsubmit_normal.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/register_image_background.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/register_image_background.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/button.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/button.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_from.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_from.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_desciption.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_desciption.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_small_save.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/btn_small_save.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_ellip.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_ellip.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/scan_qr.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/scan_qr.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_statuebar.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_statuebar.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/register_button_type.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/register_button_type.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_button_more.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_button_more.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsedit_button_finish.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsedit_button_finish.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/register_ediittext_smallinput.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/register_ediittext_smallinput.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/register_button_clickfinish.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/register_button_clickfinish.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/progress_secondary_holo_light.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/progress_secondary_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemsedit_input_depict.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemsedit_input_depict.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_save_normal.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/btn_save_normal.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/main_tabwidget_background.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/main_tabwidget_background.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/menu_right_new.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/menu_right_new.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/edittext_normal_focus.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/edittext_normal_focus.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_answeredproblembackgroud2.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_answeredproblembackgroud2.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_answeredproblembackgroud.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_answeredproblembackgroud.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_imagelogo.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_imagelogo.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/register_image_label.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/register_image_label.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_text_teach_number.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_text_teach_number.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/display_detail.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/display_detail.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/project_display_text_student_name.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/project_display_text_student_name.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_userinfo_group.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/ic_userinfo_group.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/login_input_accountandpassword.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/login_input_accountandpassword.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/progressbar_indeterminate_holo7.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/progressbar_indeterminate_holo7.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/scan_book.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/scan_book.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_cuttingline2_2.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_cuttingline2_2.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/problemslist_image_title.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/problemslist_image_title.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_big_normal_disable.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/btn_big_normal_disable.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/ass_finish_unchecked.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/ass_finish_unchecked.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/referenceslist_image_cuttingline2_0.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/referenceslist_image_cuttingline2_0.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/edittext_normal_press.9.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/edittext_normal_press.9.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/button_edit.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/button_edit.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_edit.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/ic_action_edit.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi/progressbar_indeterminate_holo1.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/progressbar_indeterminate_holo1.png"
+    }
+]

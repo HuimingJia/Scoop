@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal" >
+        
+
+        <com.coop.android.activity.view.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res/com.srcoop.android.activity"
+            android:id="@+id/memberlist_image_tportrait"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/userport" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:background="@drawable/background_label"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="姓名"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/memberlist_textview_tname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                        android:padding="5dp"
+                    android:background="@drawable/background_label"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                    android:background="@drawable/background_label"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="邮箱"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/memberlist_textview_temail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                        android:padding="5dp"
+                    android:background="@drawable/background_label"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                    android:background="@drawable/background_label"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="电话"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/memberlist_textview_tnumber"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                        android:padding="5dp"
+                    android:background="@drawable/background_label"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/memberlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#2e3f4e"
+        android:dividerHeight="1.0dip"
+        android:fadingEdge="none"
+        android:listSelector="@drawable/list_selector_transition"
+        android:scrollingCache="false" />
+
+</LinearLayout>

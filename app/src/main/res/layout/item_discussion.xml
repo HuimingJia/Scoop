@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:descendantFocusability="blocksDescendants"
+>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/background_corner2"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#2e3f4e"
+            android:text="标题:"
+            android:layout_gravity="right" />
+
+        <TextView
+            android:id="@+id/discussion_textview_title"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:ellipsize
+                ="end"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#2e3f4e" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="125dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@drawable/background_corner2"
+                android:layout_width="125dp"
+                android:layout_height="25dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textColor="#2e3f4e"
+                    android:text="发起人:" />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textColor="#2e3f4e"
+                    android:id="@+id/discussion_textview_from" />
+            </LinearLayout>
+            
+            <Button
+                android:background="@drawable/background_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"          
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#825a12"
+                android:text="点击查看"           
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentRight="true"
+                 android:id="@+id/discussion_button_check"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/background_corner2"
+            android:layout_alignParentRight="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginRight="130dp"
+            android:layout_width="fill_parent"
+            android:layout_height="75dp">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="top"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:textColor="#2e3f4e"
+                android:text="描述:" />
+            <TextView
+                android:autoText="false"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:lines="3"
+                android:ellipsize="end"
+                android:gravity="top"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:textColor="#2e3f4e"
+                android:id="@+id/discussion_textview_description"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

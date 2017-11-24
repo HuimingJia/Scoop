@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/assignment_button_layout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/background_assboard"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/assignment_button_finish"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/background_circlebutton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/assignment_textview_name"
+            style="@style/assignment_textview_name"
+            android:text="AssignementName" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                style="@style/assignment_textview_desc"
+                android:text="@string/assignment_textview_starttime" />
+
+            <TextView
+                android:id="@+id/assignment_textview_starttime"
+                style="@style/assignment_textview_desc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                style="@style/assignment_textview_desc"
+                android:text="@string/assignment_textview_finishtime" />
+
+            <TextView
+                android:id="@+id/assignment_textview_finishtime"
+                style="@style/assignment_textview_desc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                style="@style/assignment_textview_desc"
+                android:text="@string/assignment_textview_desc" />
+
+            <TextView
+                android:id="@+id/assignment_textview_desc"
+                style="@style/assignment_textview_desc"
+                android:singleLine="true"
+                android:text="description" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

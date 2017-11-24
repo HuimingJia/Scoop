@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <color name="assignment_checked_color">#0b95d3</color>
+    <color name="assignment_divider_color">#a0c9dc</color>
+    <color name="assignment_textview_color">#547f91</color>
+    <color name="assignment_unchecked_color">#a9aaaa</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff0f81d9</color>
+    <color name="button_text_color">#825a12</color>
+    <color name="button_text_color_3">#CFA655</color>
+    <color name="currentstage_label_color">#547f91</color>
+    <color name="dialog_divider">#ffbfcbd3</color>
+    <color name="dialog_listitem_press">#ffd0dce4</color>
+    <color name="divider">#ffcedbe0</color>
+    <color name="font_value">#ff888271</color>
+    <color name="holo_blue">#ff33E5B5</color>
+    <color name="light_notes_color">#ff999999</color>
+    <color name="link_color">#ff4abad7</color>
+    <color name="press_blue">#2e3f4e</color>
+    <color name="profile_edit">#383838</color>
+    <color name="profile_label">#a9aaaa</color>
+    <color name="stage_change_color">#1f5a75</color>
+    <color name="task_tv_color">#1f5a75</color>
+    <color name="text_color">#ff434343</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <declare-styleable name="CircularImageView"><attr format="boolean" name="border"/><attr format="color" name="border_color"/><attr format="dimension" name="border_width"/><attr format="boolean" name="selector"/><attr format="color" name="selector_color"/><attr format="color" name="selector_stroke_color"/><attr format="dimension" name="selector_stroke_width"/><attr format="boolean" name="shadow"/></declare-styleable>
+    <declare-styleable name="CustomCircularImageViewTheme"><attr format="reference" name="circularImageViewStyle"/></declare-styleable>
+    <declare-styleable name="HorizontalListView"><attr format="dimension" name="dividerWidth"/><attr name="android:divider"/><attr name="android:requiresFadingEdge"/><attr name="android:fadingEdgeLength"/></declare-styleable>
+    <declare-styleable name="JazzyViewPager"><attr name="style">
+            <enum name="standard" value="0"/>
+            <enum name="tablet" value="1"/>
+            <enum name="cubein" value="2"/>
+            <enum name="cubeout" value="3"/>
+            <enum name="flipvertical" value="4"/>
+            <enum name="fliphorizontal" value="5"/>
+            <enum name="stack" value="6"/>
+            <enum name="zoomin" value="7"/>
+            <enum name="zoomout" value="8"/>
+            <enum name="rotateup" value="9"/>
+            <enum name="rotatedown" value="10"/>
+            <enum name="accordion" value="11"/>
+        </attr><attr format="boolean" name="fadeEnabled"/><attr format="boolean" name="outlineEnabled"/><attr format="color|reference" name="outlineColor"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode">
+            <flag name="disabled" value="0x0"/>
+            <flag name="pullFromStart" value="0x1"/>
+            <flag name="pullFromEnd" value="0x2"/>
+            <flag name="both" value="0x3"/>
+            <flag name="manualOnly" value="0x4"/>
+            <flag name="google" value="0x5"/>
+
+            
+            <flag name="pullDownFromTop" value="0x1"/>
+            <flag name="pullUpFromBottom" value="0x2"/>
+        </attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr format="string" name="ptrAnimationStyle"/><attr format="string" name="ptrIndicatorStyle"/><attr format="string" name="ptrGoogleViewStyle"/><attr format="string" name="ptrGoogleProgressStyle"/><attr format="string" name="ptrPullLabel"/><attr format="string" name="ptrRefreshLabel"/><attr format="string" name="ptrReleaseLabel"/><attr format="float" name="ptrFriction" value="2.0"/><attr format="integer" name="ptrSmoothScrollDuration" value="200"/><attr format="integer" name="ptrSmoothScrollLongDuration" value="325"/><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|boolean" name="ptrSetGoogleViewLayoutSizeToActionbarHeight"/><attr format="reference|boolean" name="ptrShowGoogleStyleViewAnimationEnabled"/><attr format="reference|boolean" name="ptrHideRefeshableViewWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrViewRefeshableViewProgressBarOnCenterWhileRefreshingEnabled"/><attr format="integer" name="ptrShowGoogleStyleViewAnimationDuration" value="100"/><attr format="integer" name="ptrHideRefeshableViewWhileRefreshingDuration" value="500"/><attr format="integer" name="ptrViewRefeshableViewProgressBarOnCenterWhileRefreshingDuration" value="200"/><attr format="integer" name="ptrRefeshableViewProgressBarOnCenterWidth" value="200"/><attr format="integer" name="ptrRefeshableViewProgressBarOnCenterHeight" value="200"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="header_pull_to_refresh_image_padding">10px</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <item name="draw_temp" type="drawable">#fff4f4f4</item>
+    <drawable name="list_backgroud_normal">@color/white</drawable>
+    <drawable name="transparent">@color/transparent</drawable>
+    <item name="gridview" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="webview" type="id"/>
+    <integer name="fling_animation_duration">350</integer>
+    <string name="BMAppUpdate">应用更新</string>
+    <string name="BMBreak_Network">未联网</string>
+    <string name="BMDialog_InstallAPK">最新版本已下载，是否安装？</string>
+    <string name="BMGprsCondition">（提示：非WIFI环境）</string>
+    <string name="BMIgnore">忽略该版</string>
+    <string name="BMNewVersion">最新版本: </string>
+    <string name="BMNotNow">以后再说</string>
+    <string name="BMTargetSize">新版本大小:</string>
+    <string name="BMToast_IsUpdating">正在更新中....</string>
+    <string name="BMUpdateCheck">v3.1.4Beta</string>
+    <string name="BMUpdateContent">更新内容</string>
+    <string name="BMUpdateNow">立即更新</string>
+    <string name="BMUpdateSize">仅需要下载:</string>
+    <string name="BMUpdateTitle">发现新版本</string>
+    <string name="app_name">Coop</string>
+    <string name="assignment_finish">完成此阶段任务</string>
+    <string name="assignment_notfinish">未完成</string>
+    <string name="assignment_textview_desc">描述:</string>
+    <string name="assignment_textview_finishtime">完成时间:</string>
+    <string name="assignment_textview_starttime">分配时间:</string>
+    <string name="bmob_common_action_cancel">取消</string>
+    <string name="bmob_common_action_continue">继续</string>
+    <string name="bmob_common_action_info_exist">正在下载中.</string>
+    <string name="bmob_common_action_pause">暂停</string>
+    <string name="bmob_common_download_failed">下载失败</string>
+    <string name="bmob_common_download_finish">下载完成，请点击安装</string>
+    <string name="bmob_common_download_notification_prefix">正在下载: </string>
+    <string name="bmob_common_info_interrupt">下载出错啦，请检查网络后继续。</string>
+    <string name="bmob_common_network_break_alert">请连接网络后再尝试！</string>
+    <string name="bmob_common_patch_finish">更新完成，请点击安装</string>
+    <string name="bmob_common_pause_notification_prefix">暂停: </string>
+    <string name="bmob_common_silent_download_finish">新版本已经准备好，请点击安装</string>
+    <string name="bmob_common_start_download_notification">正在下载应用</string>
+    <string name="bmob_common_start_patch_notification">正在更新安装包</string>
+    <string name="dialog_p_btn">相册</string>
+    <string name="dialog_title">设置头像</string>
+    <string name="exit">退出当前账号</string>
+    <string name="next">下一个阶段</string>
+    <string name="prev">上一个阶段</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="settintg_about">关于</string>
+    <string name="settintg_check_update">检查更新</string>
+    <string name="settintg_give_back">用户反馈</string>
+    <string name="settintg_share_to_freind">分享给朋友</string>
+    <string name="stage1_name">准备阶段</string>
+    <string name="stage2_name">实验阶段</string>
+    <string name="stage3_name">改进阶段</string>
+    <string name="stage4_name">发表阶段</string>
+    <string name="task_assignment">任务作业:</string>
+    <string name="task_carrier">参与者:</string>
+    <string name="task_carrier1_name">库珀</string>
+    <string name="task_carrier2_name">艾米莉亚</string>
+    <string name="task_carrier3_name">墨菲</string>
+    <string name="task_carriers">执行者:</string>
+    <string name="task_content">任务概要:</string>
+    <string name="task_content_detail">通过虫洞可以打破人类的能力限制，到更遥远外太空寻找延续生命希望的机会</string>
+    <string name="task_current_assignment">实验阶段小任务:</string>
+    <string name="task_name1">模式识别算法</string>
+    <string name="task_problem">问题列表</string>
+    <string name="task_reference">参考资料</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog"/>
+    <style name="Style_Dialog_Button">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#825a12</item>
+        <item name="android:background">@drawable/background_button</item>
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginRight">6.0dip</item>
+        <item name="android:layout_marginTop">6.0dip</item>
+        <item name="android:layout_marginBottom">6.0dip</item>
+        <item name="android:minHeight">40.0dip</item>
+    </style>
+    <style name="TextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/font_value</item>
+        <item name="android:textColorHint">@color/light_notes_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Theme.Light.FullScreenDialogAct" parent="@style/BaseDialog">
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff555555</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <style name="assignment_textview_desc">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/press_blue</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="assignment_textview_name">
+                <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/press_blue</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="profile_layout_edit" parent="profile_layout_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/profile_edit</item>
+    </style>
+    <style name="profile_layout_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/profile_label</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="setting_layout_tv" parent="profile_layout_label">
+        <item name="android:textColor">#293746</item>
+    </style>
+    <style name="stage_layout_button">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/button_circle_shape_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="stage_layout_selected_button" parent="stage_layout_button">
+        <item name="android:background">@drawable/button_circle_shape_orange</item>
+    </style>
+    <style name="task_activity_button">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:background">@drawable/button_add</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="task_textview_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">26dp</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:textColor">@color/press_blue</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="task_textview_time">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>

@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/background.jpg",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/background.jpg"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bmob_update_btn_check_off_pressed_holo_light.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable-hdpi-v4/bmob_update_btn_check_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bmob_update_close_bg_normal.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable-hdpi-v4/bmob_update_close_bg_normal.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bmob_update_close_bg_tap.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable-hdpi-v4/bmob_update_close_bg_tap.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bmob_update_btn_check_off_holo_light.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable-hdpi-v4/bmob_update_btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bmob_update_btn_check_off_focused_holo_light.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable-hdpi-v4/bmob_update_btn_check_off_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bmob_update_btn_check_on_focused_holo_light.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable-hdpi-v4/bmob_update_btn_check_on_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/blade.jpg",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/blade.jpg"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/profile_big_photo.jpg",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/profile_big_photo.jpg"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bmob_update_btn_check_on_pressed_holo_light.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable-hdpi-v4/bmob_update_btn_check_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/sky.jpg",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/sky.jpg"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bmob_update_btn_check_on_holo_light.png",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.5/res/drawable-hdpi-v4/bmob_update_btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "/Users/jiahuiming/Documents/Project/SCOOP/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/userport.jpg",
+        "source": "/Users/jiahuiming/Documents/Project/SCOOP/app/src/main/res/drawable-hdpi/userport.jpg"
+    }
+]

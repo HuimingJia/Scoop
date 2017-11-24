@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal" >
+
+    <com.coop.android.activity.view.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res/com.srcoop.android.activity"
+        android:id="@+id/memberlist_image_sportrait"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/userport" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/background_corner"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="姓名"
+                    android:padding="5dp"
+                android:textColor="@color/press_blue"
+                 android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/memberlist_textview_sname"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/background_corner"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                android:padding="5dp"
+                android:textColor="@color/press_blue"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/background_corner"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="邮箱"
+                    android:padding="5dp"
+                android:textColor="@color/press_blue"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/memberlist_textview_semail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/background_corner"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                    android:padding="5dp"
+                android:textColor="@color/press_blue"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+           android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/background_corner"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="电话"
+                    android:padding="5dp"
+                android:textColor="@color/press_blue"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/memberlist_textview_snumber"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/background_corner"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                    android:padding="5dp"
+                android:textColor="@color/press_blue"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
